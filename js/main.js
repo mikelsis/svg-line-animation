@@ -10,15 +10,6 @@ function generateScaleFunction(prevMin, prevMax, newMin, newMax) {
 
 $(document).ready(function() {
     SmoothParallax.init();
-
-    // var controller = new ScrollMagic.Controller();
-
-    // var scene = new ScrollMagic.Scene({
-    //     offset: 0,
-    //     duration: 400
-    // })
-
-    // controller.addScene(scene);
     var root = document.documentElement;
     var scaleFunct = generateScaleFunction(0, 1482, 2000, 0);
     $(document).on("mousewheel", function() {
