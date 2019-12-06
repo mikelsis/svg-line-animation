@@ -1,5 +1,3 @@
-console.log(this);
-
 function generateScaleFunction(prevMin, prevMax, newMin, newMax) {
     var offset = newMin - prevMin,
         scale = (newMax - newMin) / (prevMax - prevMin);
